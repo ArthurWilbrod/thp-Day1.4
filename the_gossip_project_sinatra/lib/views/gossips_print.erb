@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>The Gossip Project</title>
+  </head>
+  <body>
+    <h1>PAGE POTIN </h1>
+    <h2>Voici la page du potin n° <%= nb %>  </h2>
+    <h3>Son auteur : <%= gossip.author %> <br/>
+Le contenu du potin : <%= gossip.content %></h3>
+<h4>Lien pour revenir à la page des potins : <a href="/">OO</a></h4>
+<h4>Lien pour editer le POTIN : <a href="/gossips/<%=nb.to_s%>/edit/">OO</a></h4>
+
+  </body>
+</html>
